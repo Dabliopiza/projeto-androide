@@ -176,6 +176,13 @@ footer p{
     text-align: center;
 }
 
+footer p:hover {
+    transition-duration: 1s;
+    padding: 20px;
+    background-color: var(--cor2);
+    color: black;
+}
+
 aside{
     background-color: var(--cor1);
     padding: 25px;
