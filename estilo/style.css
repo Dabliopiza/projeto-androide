@@ -22,8 +22,8 @@
     --cor8:#9c9c9c;
     
     --font-padrao: arial, verdana, helvetica 'Bebas Neue';
-    --font-destaque:'Bebas Neue', cursive;
-    --font-android:'android',cursive;
+    --font-destaque:'Bebas Neue';
+    --font-android:'android';
 }
 
 *{
