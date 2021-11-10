@@ -114,7 +114,7 @@ nav > a{
 
 nav > :hover {
     background-color: var(--cor3);
-    color: var(--cor5);
+    color: black;
     padding: 15px;
 }
 
