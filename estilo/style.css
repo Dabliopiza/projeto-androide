@@ -172,7 +172,7 @@ footer p{
     background-color: var(--cor5);
     color: white;
     margin-top: 20px;
-    font: normal 40px var(--font-destaque);
+    font: normal 40px 'Bebas Neue';
     text-align: center;
 }
 
@@ -196,9 +196,10 @@ aside h2 {
 }
 
 ul{
-    font-family: var(--font-destaque);
-    font: normal 20px var(--font-destaque);
+    font-family: 'Bebas Neue';
+    font: normal 25px 'Bebas Neue';
     list-style-type:'\2714\00A0\00A0' ;
+    padding-left: 15px;
 }
 
 p#centro{
