@@ -21,9 +21,9 @@
     --cor7:#616161;
     --cor8:#9c9c9c;
     
-    --font-padrao: arial, verdana, helvetica, sans-serif;
-    --font-destaque:'Bebas Neue', cursive;
-    --font-android:'android',cursive;
+    --font-padrao: arial, verdana, helvetica ;
+    --font-destaque:'Bebas Neue' cursive;
+    --font-android:'android' cursive ;
 }
 
 *{
@@ -114,8 +114,12 @@ nav > a{
 
 nav > :hover {
     background-color: var(--cor3);
-    color: var(--cor5);
+    color: black;
     padding: 15px;
+}
+
+i.material-icons-two-tone {
+    background-image:url(twotone_home_black_24dp.png);
 }
 
 main{
@@ -172,8 +176,15 @@ footer p{
     background-color: var(--cor5);
     color: white;
     margin-top: 20px;
-    font: normal 30px var(--font-destaque);
+    font: normal 40px 'Bebas Neue';
     text-align: center;
+}
+
+footer p:hover {
+    transition-duration: 1s;
+    padding: 20px;
+    background-color: var(--cor2);
+    color: black;
 }
 
 aside{
@@ -189,9 +200,10 @@ aside h2 {
 }
 
 ul{
-    font-family: var(--font-destaque);
-    font: normal 20px var(--font-destaque);
+    font-family: 'Bebas Neue';
+    font: normal 25px 'Bebas Neue';
     list-style-type:'\2714\00A0\00A0' ;
+    padding-left: 15px;
 }
 
 p#centro{
