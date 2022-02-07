@@ -118,6 +118,10 @@ nav > :hover {
     padding: 15px;
 }
 
+i.material-icons-two-tone {
+    background-image:url(twotone_home_black_24dp.png);
+}
+
 main{
     background-color: white;
     min-width: 300px;
